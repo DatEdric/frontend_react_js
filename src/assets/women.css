@@ -1,0 +1,61 @@
+.container-custom {
+    margin: 0 200px;
+}
+.btn-filter {
+    margin-right: 20px;
+    background-color: #f3f2f2;
+    border: none;
+    border-radius: 0;
+    color: #1f1e1e;
+    font-weight: 600;
+    transition: 0.4s;
+    /* padding: 0 0px; */
+}
+.btn-filter:hover {
+    background-color: rgb(181, 181, 182);
+    color: rgb(94, 94, 94);
+}
+.tools-bar {
+    margin: 20px 0;
+    padding:5px 0 ;
+    border-top:1px solid rgba(206, 204, 204, 0.671);
+    border-bottom:1px solid rgba(206, 204, 204, 0.671);
+}
+.form-select {
+    margin-top: 3px;
+    outline: none;
+    border: none;
+}
+.filter-tools {
+    align-items: center;
+    justify-content: space-between;
+}
+.display-filter {
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.display-filter button {
+    background-color: #eff0f2;
+    border: none;
+    border-radius: 0;
+    color: #1f1e1e;
+    font-weight: 500;
+    transition: 0.6s;
+}
+.display-filter button:hover {
+    background-color: #e0e2e2;
+    color: #5e5e5e;
+}
+.filter-sort-quantity {
+    align-items: center;
+}
+.filter-sort-quantity p {
+    font-size: 17px;
+    padding-right: 20px;
+    margin-bottom: 0;
+    border-right: 2px solid rgb(233, 232, 232);
+}
+.sort-filter {
+    padding: 0 20px;
+}

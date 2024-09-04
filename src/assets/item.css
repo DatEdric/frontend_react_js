@@ -1,0 +1,100 @@
+.card-item:hover .img-item-1 {
+    display: none;
+    width: 100%;
+}
+
+.card-item:hover .img-item-2 {
+    display: block;
+    width: 100%;
+}
+
+.img-item-1 {
+    width: 304px;
+    display: block;
+}
+
+.img-item-2 {
+    width: 304px;
+    display: none;
+}
+
+.card-item {
+    padding: 15px;
+    overflow: hidden;
+    transition: 0.7s;
+    border-radius: 0;
+    position: relative;
+}
+
+.card-item:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.title-like-item {
+    position: relative;
+    width: 100%;
+}
+.item-name {
+    width: 170px;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+.item-name:hover {
+    text-decoration: underline;
+}
+
+.item-current-price {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: 500;
+    color: #8a041f;
+    font-size: 17px;
+
+}
+
+.item-old-price {
+    text-align: center;
+    text-decoration: line-through;
+    font-size: 16px;
+    color: rgb(29, 29, 29);
+}
+.item-discount {
+    margin-left: 5px;
+    background-color: #8a041f;
+    color: #fff;
+    padding:0 3px;
+}
+.new-item {
+    font-weight: 600;
+    position: absolute;
+    top: 25px;
+    left: 16px;
+    border: 1px solid #000;
+    padding: 0 7px;
+
+}
+.like-item {
+    position: absolute;
+    right: 10px;
+    top: -2px;
+
+}
+.btn-detail-item {
+    background-color: #fff;
+    margin-top: 100px;
+    width: 100%;
+    border-radius: 0;
+    color: #000;
+    padding: 10px;
+    transition: 0.5s;
+}
+.btn-detail-item:hover {
+    text-decoration: underline;
+    background-color: #fff;
+    color: #000;
+}

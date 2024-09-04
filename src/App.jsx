@@ -1,20 +1,23 @@
-import { useEffect, useState } from 'react';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import { HelmetProvider } from "react-helmet-async";
+import { Route, Routes } from "react-router-dom";
+import BaseComponent from "./Components/client/home/BaseComponent";
+import HomePageComponent from "./Components/client/home/HomePageComponent";
+import WomentProductComponent from "./Components/client/product/WomenProductComponent";
 
 function App() {
-  const [message, setMessage] = useState('');
-
-  useEffect(() => {
-    fetch('/api')
-      .then(response => response.json())
-      .then(data => setMessage(data.message));
-  }, []);
-
-  return (
-    <div className="App">
-      <h1>{message}</h1>
-    </div>
-  );
+    return (
+        <>
+            <HelmetProvider>
+                <Routes>
+                    <Route path="/" element={<BaseComponent />}>
+                        <Route path="/home" index element={<HomePageComponent />} />
+                        <Route path="/women" element={<WomentProductComponent />} />
+                    </Route>
+                </Routes>
+            </HelmetProvider>
+        </>
+    );
 }
 
-export default App
+export default App;

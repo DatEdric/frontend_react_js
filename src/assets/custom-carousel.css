@@ -1,0 +1,21 @@
+.carousel-item {
+    height: 470px;
+}
+.custom-prev-icon {
+    border-radius: 3px;
+    margin-left: -100px; 
+    width: 50px;
+    background-color: gray !important;
+    cursor: pointer; /* Con trỏ khi di chuột */
+}
+
+.custom-next-icon {
+    margin-right: -100px !important; 
+    width: 50px;
+    border-radius: 3px;
+    background-color: gray !important;
+    margin-right: 10px; /* Khoảng cách bên phải */
+    cursor: pointer; /* Con trỏ khi di chuột */
+}
+
+/* Thêm các quy tắc khác nếu cần */

@@ -1,0 +1,42 @@
+.send-mail {
+    background-color: #eff0f2;
+    padding: 20px;
+    padding-bottom: 5px;
+  }
+  .icon-mail {
+    font-size: 30px;
+    margin-right: 20px;
+  }
+  h4 {
+    font-size: 19px;
+    font-weight: 400;
+  }
+  .privacy-policy {
+    text-decoration: underline;
+    font-size: 16px;
+  }
+  .newsletter {
+    margin-bottom: 20px;
+  }
+  .input-mail {
+    border-radius: 0;
+    padding: 10px ;
+  }
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-media a {
+    margin: 0 10px;
+    font-size: 24px;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid #e9ecef;
+    padding-top: 10px;
+  }

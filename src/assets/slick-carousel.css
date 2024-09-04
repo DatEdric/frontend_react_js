@@ -1,0 +1,26 @@
+.slick-img {
+    width: 100%;
+    box-shadow: -1px 2px 17px 3px rgba(0,0,0,0.32);
+    -webkit-box-shadow: -1px 2px 17px 3px rgba(0,0,0,0.32);
+    -moz-box-shadow: -1px 2px 17px 3px rgba(0,0,0,0.32);
+}
+.card-title {
+    text-align: center;
+}
+h5 {
+    text-align: left;
+    font-size: 18px;
+}
+h4.title-colection {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 26px; 
+}
+.colection-info {
+    text-align: left;
+    margin: 20px 0;
+}
+.btn-buy {
+    width: 100%;
+    border-radius: 0;
+}

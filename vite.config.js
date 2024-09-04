@@ -6,8 +6,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 5000, // Đổi 3000 thành số cổng bạn muốn
-    proxy: {
-      '/api': 'http://localhost:3000',
-    },
+    // proxy:  'http://localhost:3000/'
   }
 })
